@@ -165,7 +165,7 @@ while (!Raylib.WindowShouldClose())
     {
         Raylib.DrawText("YOU GOT DIAMOND :D", 150, 300, 64, Color.BLACK);
 
-        Rectangle characterwin = new Rectangle(470, 900 / 2 - 255, 50, 50);
+        Rectangle characterwin = new Rectangle(470, 1350 / 2 - 255, 50, 50);
         Raylib.DrawRectangleRec(characterwin, Color.BLACK);
 
         Rectangle diamondwin = new Rectangle(515, 890 / 2 - 25, 20, 20);
