@@ -137,8 +137,8 @@ while (!Raylib.WindowShouldClose())
         Raylib.DrawText("HAPPY WHEELS", 115, 300, 64, Color.BLACK);
         Raylib.DrawText("MATRIX", 650, 300, 64, Color.DARKGREEN);
         Raylib.DrawText("PRESS ENTER", 280, 400, 64, Color.RED);
-        Raylib.DrawText("A/UP", 20, 650, 64, Color.GRAY);
-        Raylib.DrawText("D/DOWN", 20, 700, 64, Color.GRAY);
+        Raylib.DrawText("W/UP", 20, 650, 64, Color.GRAY);
+        Raylib.DrawText("S/DOWN", 20, 700, 64, Color.GRAY);
         Raylib.DrawText("GOAL = GET DIAMOND", 350, 705, 50, Color.GRAY);
         Rectangle diamondwin = new Rectangle(950, 1485 / 2 - 25, 20, 20);
         Raylib.DrawRectangleRec(diamondwin, Color.BLUE);
@@ -165,7 +165,7 @@ while (!Raylib.WindowShouldClose())
     {
         Raylib.DrawText("YOU GOT DIAMOND :D", 150, 300, 64, Color.BLACK);
 
-        Rectangle characterwin = new Rectangle(470, 900 / 2 - 25, 50, 50);
+        Rectangle characterwin = new Rectangle(470, 900 / 2 - 255, 50, 50);
         Raylib.DrawRectangleRec(characterwin, Color.BLACK);
 
         Rectangle diamondwin = new Rectangle(515, 890 / 2 - 25, 20, 20);
